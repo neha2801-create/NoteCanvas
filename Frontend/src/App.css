@@ -40,3 +40,11 @@
 .read-the-docs {
     color: #888;
 } */
+
+/* styles.css */
+.el {
+    width: 20px; /* Adjust the width of the grid elements */
+    height: 20px; /* Adjust the height of the grid elements */
+    background-color: lightblue; /* Set the background color of the grid elements */
+    position: absolute; /* Position the grid elements absolutely */
+}
