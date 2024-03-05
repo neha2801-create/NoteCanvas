@@ -51,7 +51,7 @@ const Login = () => {
     }
 
     return (
-        <>
+        <div>
             <Stack
                 sx={{
                     backgroundImage: { OrangeBlobBG },
@@ -142,6 +142,7 @@ const Login = () => {
                         flex={2}
                         height={350}
                         bgImage={Notes3D}
+                        color="black"
                     >
                         <Typography
                             variant="h6"
@@ -238,7 +239,7 @@ const Login = () => {
                     </LoginPageCard>
                 </Stack>
             </Stack>
-        </>
+        </div>
     );
 };
 

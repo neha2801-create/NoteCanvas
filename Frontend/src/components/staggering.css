@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    background-color: rgb(34, 22, 11);
+    grid-template-columns: repeat(
+        70,
+        25px
+    ); /* Adjust the size of columns as needed */
+    gap: 8px; /* Adjust the gap between grid items as needed */
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.grid-item {
+    height: 25px; /* Adjust the size of grid items as needed */
+    width: 25px;
+    /* border: 1px solid #ccc; Add a border for better visibility */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

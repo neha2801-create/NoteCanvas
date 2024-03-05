@@ -15,6 +15,7 @@ const LoginPageCard = ({
     flex = 1,
     bgImage,
     children,
+    color = "white",
 }) => {
     return (
         <motion.div
@@ -36,7 +37,7 @@ const LoginPageCard = ({
                 overflow={"hidden"}
                 justifyContent={"left"}
                 sx={{
-                    backdropFilter: "blur(10px)",
+                    backdropFilter: "blur(20px)",
                     backgroundImage: `url(${bgImage})`,
                     // backgroundSize: "20px",
                     backgroundPosition: "center",
@@ -45,12 +46,14 @@ const LoginPageCard = ({
                 }}
                 bgcolor={bgcolor}
                 border={border}
+                borderColor={"black"}
                 direction={"column"}
                 padding={padding}
                 borderRadius={borderRadius}
                 gap={3}
                 minWidth={minWidth}
                 height={height}
+                color={color}
             >
                 {children}
             </Stack>
