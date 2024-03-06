@@ -97,8 +97,10 @@ const Login = () => {
 
                     {/* ----LOGIN CARD---- */}
                     <LoginPageCard
+                        bgcolor="#00000040"
                         borderRadius={"50px 50px 0px 50px"}
                         height={350}
+
                         // bgcolor="#FF5300"
                         // border={1}
                     >

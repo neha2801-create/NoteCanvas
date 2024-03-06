@@ -37,7 +37,7 @@ const LoginPageCard = ({
                 overflow={"hidden"}
                 justifyContent={"left"}
                 sx={{
-                    backdropFilter: "blur(20px)",
+                    backdropFilter: "blur(15px)",
                     backgroundImage: `url(${bgImage})`,
                     // backgroundSize: "20px",
                     backgroundPosition: "center",

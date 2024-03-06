@@ -21,10 +21,10 @@ function App() {
 
     return (
         <ThemeProvider theme={theme}>
-            {/* <Staggering /> */}
-            {/* <Login /> */}
+            <Staggering />
+            <Login />
             {/* <Canvas /> */}
-            <SignUpStepTwo />
+            {/* <SignUpStepTwo /> */}
         </ThemeProvider>
     );
 }
